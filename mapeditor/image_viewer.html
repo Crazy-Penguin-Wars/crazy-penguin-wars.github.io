@@ -23,7 +23,7 @@
   <script>
     // Read image URL from the page hash
     const hash = decodeURIComponent(window.location.hash.substring(1));
-    const imgUrl = hash || "fallback-image.jpg"; // fallback if no hash
+    const imgUrl = hash || "fallback-image.jpg";
 
     const map = L.map('map', {
       crs: L.CRS.Simple,
