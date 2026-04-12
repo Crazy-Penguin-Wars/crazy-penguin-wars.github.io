@@ -1,7 +1,15 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:          # ← Add this
+    environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     permissions:
@@ -29,5 +37,5 @@ jobs:
           path: ./out
 
       - name: Deploy to GitHub Pages
-        id: deployment          # ← Add this id so the url output works
+        id: deployment
         uses: actions/deploy-pages@v4
