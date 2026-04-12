@@ -89,13 +89,10 @@ export default function Home() {
         <div className={styles.bottomContainer}>
           <div className={styles.titleWrapper}>
             <img src="favicon.ico" alt="" />
-            <p className={styles.title}>Crazy Penguin Wars Revival</p>
+            <p className={styles.title}>A Crazy Penguin Wars revival project</p>
           </div>
 
-          <p className={styles.desc} style={{ margin: "0" }}>—</p>
-          <p className={styles.descp} style={{ margin: "0" }}>—</p>
-
-          <p className={styles.desc}>The legendary penguin shooter is back with classic chaos, new updates, and multiplayer battles</p>
+          <p className={styles.desc}>- With guaranteed chaos and Bazookas. Join us now!</p>
           <p className={styles.descp}>Enjoy the classic chaos with new updates</p>
         </div>
       </div>
@@ -146,10 +143,12 @@ export default function Home() {
 
         <p className={styles.sectionTitle} data-aos="fade-up" data-aos-offset="200">Play</p>
 
-        <p className={styles.sectionDesc} data-aos="fade-up" data-aos-offset="200">Ready to dive into the icy battlefield? Click below to download the demo version.</p>
+        <p className={styles.sectionDesc} data-aos="fade-up" data-aos-offset="200">Ready to dive into the icy battlefield? Click the button below to download our launcher!</p>
+
+        <p className={styles.sectionDesc} data-aos="fade-up" data-aos-offset="200">Note: this is only an offline demo version! We're still working hard on bringing back the full game.</p>
 
         <a download data-aos="zoom-in" href="https://github.com/Crazy-Penguin-Wars/cpw-launcher/releases/download/1.0.0/Crazy.Penguin.Wars.1_0_0.zip">
-          Downlaod for Windowns
+          Download for Windows
           <img src="download.svg" alt="" />
         </a>
 
