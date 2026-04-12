@@ -12,7 +12,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Crazy Penguin Wars",
-  description: "",
+  description: "Crazy Penguin Wars Revival is a fan-made project bringing back the legendary Facebook game. Explore the icy battlefield, collect weapons, fight other penguins, and relive the chaos of the classic multiplayer experience"
 };
 
 export default function RootLayout({
