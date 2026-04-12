@@ -92,7 +92,7 @@ export default function Home() {
             <p className={styles.title}>A Crazy Penguin Wars revival project</p>
           </div>
 
-          <p className={styles.desc}>- With guaranteed chaos and Bazookas. Join us now!</p>
+          <p className={styles.desc}>- With guaranteed chaos and bazookas. Join us now!</p>
           <p className={styles.descp}>Enjoy the classic chaos with new updates</p>
         </div>
       </div>
