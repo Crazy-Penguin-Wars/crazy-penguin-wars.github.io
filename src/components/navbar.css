@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+nav {
+    @apply flex flex-row
+    gap-7
+    bg-linear-to-b from-blue-500 to-blue-700
+    border-b-6 border-blue-900
+    text-2xl
+    p-5
+}
+
+nav > .btn {
+    @apply bg-linear-to-tr from-yellow-400 via-yellow-400 to-yellow-200
+    text-white font-semibold
+    p-1
+    rounded-xl
+    shadow-[0_5px_0_rgba(0,0,0,0.25)] shadow-orange-400
+    transition-all ease-in-out
+    hover:translate-y-1.25 hover:shadow-none hover:to-yellow-400
+}
+
+nav > .btn > span {
+    @apply w-full
+    flex
+    bg-yellow-400
+    text-white
+    py-2 px-5
+    rounded-xl
+    transition-colors duration-300 ease-in-out
+}
+
+nav > .btn-action {
+    @apply bg-linear-to-tr from-[#02ba47] via-[#02ba47] to-green-300
+    text-white font-semibold
+    p-1
+    rounded-xl
+    shadow-[0_5px_0_rgba(0,0,0,0.25)] shadow-green-700
+    transition-all ease-in-out
+    hover:translate-y-1.25 hover:shadow-none hover:to-[#02ba47]
+}
+
+nav > .btn-action > span {
+    @apply w-full
+    flex
+    bg-[#02ba47]
+    text-white
+    py-2 px-5
+    rounded-xl
+    transition-colors duration-300 ease-in-out
+}

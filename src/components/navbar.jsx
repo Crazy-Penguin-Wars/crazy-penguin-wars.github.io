@@ -1,12 +1,28 @@
 import {Link} from "react-router";
+import "./navbar.css";
 
 export default function Navbar() {
     return (
-        <nav className={" bg-linear-to-b from-blue-600 to-blue-500 text-2xl flex flex-row p-5"}>
-            <Link to={"/"} className="bg-gradient-to-b from-yellow-200 to-yellow-500 text-white font-semibold rounded-xl p-1 shadow-[0_5px_0_rgba(0,0,0,0.25)] shadow-yellow-700">
-              <span className="flex w-full bg-yellow-400 text-white rounded-xl py-2 px-5">
-              Home
-              </span>
+        <nav>
+            <Link to="/"><img src={"favicon.svg"} alt={"cpw logo"} /></Link>
+            <Link to={"/"} className="btn">
+                <span>Home</span>
+            </Link>
+
+            <Link to={"/features"} className="btn">
+                <span>Features</span>
+            </Link>
+
+            <Link to={"/news"} className="btn">
+                <span>News</span>
+            </Link>
+
+            <Link to={"/gallery"} className="btn">
+                <span>Gallery</span>
+            </Link>
+
+            <Link to={"https://discord.gg/gnqZfsJa5j"} className="btn-action ml-auto">
+                <span>Discord</span>
             </Link>
         </nav>
     );
