@@ -2,14 +2,18 @@
 
 nav {
     @apply flex flex-row
+    items-center
     gap-7
     bg-linear-to-b from-blue-500 to-blue-700
     border-b-6 border-blue-900
     text-2xl
     p-5
 }
+nav > a > img:hover {
+    filter: brightness(65%);
+}
 
-nav > .btn {
+nav > a.btn {
     @apply bg-linear-to-tr from-yellow-400 via-yellow-400 to-yellow-200
     text-white font-semibold
     p-1
@@ -19,7 +23,7 @@ nav > .btn {
     hover:translate-y-1.25 hover:shadow-none hover:to-yellow-400
 }
 
-nav > .btn > span {
+nav > a.btn > span {
     @apply w-full
     flex
     bg-yellow-400
@@ -29,7 +33,7 @@ nav > .btn > span {
     transition-colors duration-300 ease-in-out
 }
 
-nav > .btn-action {
+nav > a.btn-action {
     @apply bg-linear-to-tr from-[#02ba47] via-[#02ba47] to-green-300
     text-white font-semibold
     p-1
@@ -39,7 +43,7 @@ nav > .btn-action {
     hover:translate-y-1.25 hover:shadow-none hover:to-[#02ba47]
 }
 
-nav > .btn-action > span {
+nav > a.btn-action > span {
     @apply w-full
     flex
     bg-[#02ba47]
