@@ -9,16 +9,16 @@ export default function Navbar() {
                 <span>Home</span>
             </Link>
 
-            <Link to={"/features"} className="btn">
-                <span>Features</span>
-            </Link>
-
             <Link to={"/news"} className="btn">
                 <span>News</span>
             </Link>
 
             <Link to={"/gallery"} className="btn">
                 <span>Gallery</span>
+            </Link>
+
+            <Link to={"/about"} className="btn">
+                <span>About</span>
             </Link>
 
             <Link to={"https://discord.gg/gnqZfsJa5j"} className="btn-action ml-auto">

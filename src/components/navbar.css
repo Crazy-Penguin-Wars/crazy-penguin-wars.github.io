@@ -13,7 +13,7 @@ nav > a > img:hover {
     filter: brightness(65%);
 }
 
-nav > a.btn {
+a.btn {
     @apply bg-linear-to-tr from-yellow-400 via-yellow-400 to-yellow-200
     text-white font-semibold
     p-1
@@ -21,9 +21,10 @@ nav > a.btn {
     shadow-[0_5px_0_rgba(0,0,0,0.25)] shadow-orange-400
     transition-all ease-in-out
     hover:translate-y-1.25 hover:shadow-none hover:to-yellow-400
+    active:from-yellow-600 active:via-yellow-600  active:to-yellow-600  active:transition-none active:ease-in-out
 }
 
-nav > a.btn > span {
+a.btn > span {
     @apply w-full
     flex
     bg-yellow-400
@@ -31,9 +32,10 @@ nav > a.btn > span {
     py-2 px-5
     rounded-xl
     transition-colors duration-300 ease-in-out
+    active:bg-yellow-600 active:transition-none active:ease-out
 }
 
-nav > a.btn-action {
+a.btn-action {
     @apply bg-linear-to-tr from-[#02ba47] via-[#02ba47] to-green-300
     text-white font-semibold
     p-1
@@ -43,7 +45,7 @@ nav > a.btn-action {
     hover:translate-y-1.25 hover:shadow-none hover:to-[#02ba47]
 }
 
-nav > a.btn-action > span {
+a.btn-action > span {
     @apply w-full
     flex
     bg-[#02ba47]
