@@ -2,9 +2,15 @@
 
 @font-face {
     font-family: "Berlin Sans";
-    src: url("public/fonts/BRLNSDB.TTF") format("truetype");
+    src: url("/fonts/BRLNSDB.TTF") format("truetype");
     font-weight: normal;
     font-style: normal;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
 }
 
 * {

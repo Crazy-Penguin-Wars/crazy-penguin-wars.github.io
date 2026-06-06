@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+footer {
+    @apply flex flex-col
+    items-start
+    mt-auto
+    p-4
+    gap-8
+    bg-linear-to-t from-blue-500 to-blue-700
+    border-t-6 border-blue-900
+    text-white
+}
+
+div > ul {
+    @apply px-2
+    w-full
+    list-disc;
+}
+
+ul > li {
+    @apply w-full;
+}
+
+li > a {
+    @apply block
+    w-full
+    transition-all duration-75 ease-in-out
+    hover:text-yellow-300;
+}
