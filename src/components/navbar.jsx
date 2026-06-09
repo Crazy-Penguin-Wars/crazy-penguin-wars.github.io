@@ -3,8 +3,8 @@ import "./navbar.css";
 
 export default function Navbar() {
     return (
-        <nav>
-            <Link to="/"><img src={"cpwlogo.png"} alt={"cpw logo"} width={180} /></Link>
+        <nav id={"top"}>
+            <Link to="/"><img src={"/cpwlogo.png"} alt={"cpw logo"} width={180} /></Link>
             <Link to={"/"} className="btn">
                 <span>Home</span>
             </Link>
@@ -21,7 +21,11 @@ export default function Navbar() {
                 <span>About</span>
             </Link>
 
-            <Link to={"https://discord.gg/gnqZfsJa5j"} className="btn-action ml-auto">
+            <Link to={"/play"} className="btn-special ml-auto">
+                <span>Play</span>
+            </Link>
+
+            <Link to={"https://discord.gg/gnqZfsJa5j"} className="btn-action ">
                 <span>Discord</span>
             </Link>
         </nav>

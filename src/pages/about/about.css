@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+aside ul {
+    @apply list-disc;
+}
+
+aside ol {
+    @apply list-decimal;
+}
+
+aside ul,
+aside ol {
+    @apply w-full
+    ml-4
+    text-xl
+    underline;
+}
+
+aside ul ul,
+aside ol ol {
+    @apply ml-4;
+}
+
+aside li,
+aside li > a {
+    @apply w-full;
+}

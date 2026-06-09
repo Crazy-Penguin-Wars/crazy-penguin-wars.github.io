@@ -5,7 +5,7 @@ import './footer.css';
 export default function Footer() {
     return (
         <footer>
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-8 w-full">
                 <div className="flex flex-row gap-12 w-full">
                     <div className={"flex flex-col bg-[#02ba47] px-4 py-2 rounded-xl border-t-4 border-green-400 w-1/5"}>
                         <h5>Community:</h5>
@@ -38,9 +38,10 @@ export default function Footer() {
                             <li><Link to={"mailto:mail@crazypenguinwars.app"}>Email - mail@crazypenguinwars.app</Link></li>
                         </ul>
                     </div>
+                    <a href={"#top"} className={"btn-action h-min ml-auto"}><span>Back to top 🢁</span></a>
                 </div>
                 <div className="flex flex-row gap-4">
-                    <img src={"cpwlogo.png"} alt={"cpw logo"} width={140} className="h-min" />
+                    <img src={"/cpwlogo.png"} alt={"cpw logo"} width={140} className="h-min" />
                     <div className="flex flex-col justify-between">
                         <p className={"text-base!"}>© 2026 CrazyPenguinWars</p>
                         <p className={"text-base!"}>This is a fan-made revival project, we are not affiliated to Rockyou or Digital Chocolate in any way. All rights belong to their respective owners.</p>

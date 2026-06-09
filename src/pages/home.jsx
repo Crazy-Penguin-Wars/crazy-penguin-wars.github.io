@@ -8,7 +8,7 @@ export default function Home() {
                     <h2><span className={"text-green-400"}>Crazy</span><span className={"text-white"}>Penguin</span><span className={"text-orange-400"}>Wars</span> - <span className={"text-blue-400"}>Revived</span></h2>
                     <h6>The original Facebook game brought back to life!</h6>
                     <div className={"flex flex-row justify-center items-center w-fit gap-4 text-2xl"}>
-                        <Link to={"/"} className="btn">
+                        <Link to={"/play"} className="btn-special">
                             <span>PLAY NOW</span>
                         </Link>
                         <Link to={"https://discord.gg/gnqZfsJa5j"} className="btn-action">
