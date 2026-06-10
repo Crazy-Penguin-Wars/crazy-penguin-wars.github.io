@@ -12,6 +12,7 @@ export default function Footer() {
                         <ul>
                             <li><Link to={"https://discord.gg/gnqZfsJa5j"}>Discord</Link></li>
                             <li><Link to={"https://www.youtube.com/channel/UC7Xv7A_cYYkYns-KQNyQqdA"}>YouTube</Link></li>
+                            <li><Link to={"https://www.reddit.com/r/CrazyPenguinWars_/"}>Reddit</Link></li>
                         </ul>
                     </div>
 
