@@ -4,7 +4,7 @@ import "./about.css";
 export default function Faq() {
     return (
         <main id={"container"} className="flex flex-col w-full">
-            <header className={"flex flex-col pt-2 pb-4 w-full gap-4 bg-[url(/homepage/banner.jpg)] text-white bg-fixed bg-contain border-b-6 border-gray-800"}>
+            <header className={"flex flex-col pt-2 pb-4 w-full gap-4 bg-[url(/about/banner.jpg)] text-white bg-fixed bg-contain border-b-6 border-gray-800"}>
                 <h1 className={"text-center"}>Frequently asked questions</h1>
                 <div className={"flex flex-row items-center justify-center text-2xl gap-4"}>
                     <Link to="/about" className={"btn-action"}><span>About CPW</span></Link>

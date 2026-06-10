@@ -4,7 +4,7 @@ import "./about.css";
 export default function About() {
     return (
         <main id={"container"} className="flex flex-col">
-            <header className={"flex flex-col pt-2 pb-4 w-full gap-4 bg-[url(/homepage/banner.jpg)] text-white bg-fixed bg-contain border-b-6 border-gray-800"}>
+            <header className={"flex flex-col pt-2 pb-4 w-full gap-4 bg-[url(/about/banner.jpg)] text-white bg-fixed bg-contain border-b-6 border-gray-800"}>
                 <h1 className={"text-center"}>About the project</h1>
                 <div className={"flex flex-row items-center justify-center text-2xl gap-4"}>
                     <Link to="/about" className={"btn-action active"}><span>About CPW</span></Link>
@@ -30,55 +30,21 @@ export default function About() {
                     <section id={"game"} className={"w-4/5"}>
                         <h2>About the game</h2>
                         <hr className={"my-4 w-full border-2 rounded-xl"} />
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed malesuada varius fermentum. Vivamus id placerat orci, consectetur dictum mauris.
-                            Maecenas ullamcorper ante sit amet risus molestie sollicitudin.
-                            Sed felis metus, egestas ut mollis ut, maximus vitae neque.
-                            Sed ultrices, lectus sed placerat interdum, dui massa condimentum mi,
-                                id varius nisl quam et sem.
-                            Duis vitae sapien elit.
-                            Pellentesque cursus nisi sit amet massa efficitur, eu maximus eros iaculis.
-                            Maecenas rutrum tortor ornare, posuere magna vitae, iaculis nibh.
-                            Donec ut dapibus purus. Praesent mattis imperdiet velit, a pharetra ex vulputate eget.
-                            Suspendisse elementum, metus ac accumsan venenatis, risus eros commodo quam,
-                                fermentum gravida diam magna a magna.
-                            Donec porta odio id vehicula mollis.</p>
+                        <p>Crazy Penguin Wars was a worms-like game built with Adobe Flash (like tons of other games from that era!). It was developed by Digital Chocolate, and got shut down few years after release.<br /><br />
+                        The game offered tons of various cosmetic features for the players, as well as many different weapons. You can either fight your friends or queue in matchmaking for random opponents to play against</p>
                     </section>
 
                     <section id={"revival"} className={"w-4/5"}>
                         <h2>About the revival</h2>
                         <hr className={"my-4 w-full border-2 rounded-xl"} />
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed malesuada varius fermentum. Vivamus id placerat orci, consectetur dictum mauris.
-                            Maecenas ullamcorper ante sit amet risus molestie sollicitudin.
-                            Sed felis metus, egestas ut mollis ut, maximus vitae neque.
-                            Sed ultrices, lectus sed placerat interdum, dui massa condimentum mi,
-                            id varius nisl quam et sem.
-                            Duis vitae sapien elit.
-                            Pellentesque cursus nisi sit amet massa efficitur, eu maximus eros iaculis.
-                            Maecenas rutrum tortor ornare, posuere magna vitae, iaculis nibh.
-                            Donec ut dapibus purus. Praesent mattis imperdiet velit, a pharetra ex vulputate eget.
-                            Suspendisse elementum, metus ac accumsan venenatis, risus eros commodo quam,
-                            fermentum gravida diam magna a magna.
-                            Donec porta odio id vehicula mollis.</p>
+                        <p>Since the original game got shut down, we're trying to recreate the game, with the server being our top priority right now. </p>
                     </section>
 
                     <section id={"scratch"} className={"w-4/5"}>
                         <h2>Scratch edition</h2>
                         <hr className={"my-4 w-full border-2 rounded-xl"} />
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed malesuada varius fermentum. Vivamus id placerat orci, consectetur dictum mauris.
-                            Maecenas ullamcorper ante sit amet risus molestie sollicitudin.
-                            Sed felis metus, egestas ut mollis ut, maximus vitae neque.
-                            Sed ultrices, lectus sed placerat interdum, dui massa condimentum mi,
-                            id varius nisl quam et sem.
-                            Duis vitae sapien elit.
-                            Pellentesque cursus nisi sit amet massa efficitur, eu maximus eros iaculis.
-                            Maecenas rutrum tortor ornare, posuere magna vitae, iaculis nibh.
-                            Donec ut dapibus purus. Praesent mattis imperdiet velit, a pharetra ex vulputate eget.
-                            Suspendisse elementum, metus ac accumsan venenatis, risus eros commodo quam,
-                            fermentum gravida diam magna a magna.
-                            Donec porta odio id vehicula mollis.</p>
+                        <p>This version of the game is a recreation of it made in Scratch. The game offers little selection of cosmetics and weapons, as well as maps, created by ChangedRuby and Michielvde. Game offers custom matches and battles with bots.<br /><br />
+                            It has its own <Link to={"https://discord.gg/Nqnfm5qKRp"}>discord server</Link> and it's playable at <Link to={"https://kebabo.itch.io/cpws"}>kebabo.itch.io</Link> </p>
                     </section>
                 </div>
             </div>

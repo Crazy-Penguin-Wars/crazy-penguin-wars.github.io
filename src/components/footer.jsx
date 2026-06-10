@@ -11,8 +11,7 @@ export default function Footer() {
                         <h5>Community:</h5>
                         <ul>
                             <li><Link to={"https://discord.gg/gnqZfsJa5j"}>Discord</Link></li>
-                            <li><Link to={"/"}>YouTube</Link></li>
-                            <li><Link to={"/"}>Facebook</Link></li>
+                            <li><Link to={"https://www.youtube.com/channel/UC7Xv7A_cYYkYns-KQNyQqdA"}>YouTube</Link></li>
                         </ul>
                     </div>
 

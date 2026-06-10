@@ -25,3 +25,8 @@ aside li,
 aside li > a {
     @apply w-full;
 }
+
+section p > a {
+    @apply text-blue-500
+    hover:text-blue-300 transition-all ease-in-out;
+}
