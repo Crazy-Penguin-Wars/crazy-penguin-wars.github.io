@@ -7,6 +7,18 @@
     font-style: normal;
 }
 
+@theme {
+    --stroke-none: unset;
+}
+
+@utility text-stroke-* {
+    -webkit-text-stroke-width: calc(--value(integer) * 0.5px);
+    -webkit-text-stroke-width: --value(--stroke-*, [*]);
+
+    --tw-stroke-color: --value(--color-*);
+    -webkit-text-stroke-color: var(--tw-stroke-color, black);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -15,6 +27,13 @@ html {
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
+}
+
+#container {
+   @apply flex flex-col
+   items-center
+   justify-center
+   mt-8;
 }
 
 * {
@@ -104,3 +123,4 @@ a.btn-special > span {
     transition-colors duration-300 ease-in-out
     active:bg-purple-800 active:transition-none
 }
+

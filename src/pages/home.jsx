@@ -2,10 +2,10 @@ import {Link} from "react-router";
 
 export default function Home() {
     return (
-        <main id={"container"} className="flex flex-col">
+        <main id={"container"} className="items-stretch! mt-0!">
             <header className={"flex flex-row pt-2 pb-4 bg-[url(/homepage/banner.jpg)] bg-fixed bg-contain text-white border-b-6 border-gray-800"}>
                 <div className={"flex flex-col items-center w-full gap-4"}>
-                    <h2><span className={"text-green-400"}>Crazy</span><span className={"text-white"}>Penguin</span><span className={"text-orange-400"}>Wars</span> - <span className={"text-blue-400"}>Revived</span></h2>
+                    <h2><span className={"text-green-400"}>Crazy</span> <span className={"text-white text-stroke-black text-stroke-4"}>Penguin</span> <span className={"text-orange-400"}>Wars</span> - <span className={"text-blue-400"}>Revived</span></h2>
                     <h6>The original Facebook game brought back to life!</h6>
                     <div className={"flex flex-row justify-center items-center w-fit gap-4 text-2xl"}>
                         <Link to={"/play"} className="btn-special">
@@ -24,16 +24,16 @@ export default function Home() {
                 <div className={"flex flex-col w-fit gap-8"}>
                     <div className={"flex flex-row gap-4"}>
                         <div className={"flex flex-col"}>
-                            <h2>Original Digital Chococlate game!</h2>
+                            <h2>Original Digital Chocolate game!</h2>
                             <p>CrazyPenguinWars is another game from Digital Chocolate from the "Crazy Penguin" series! The game was a browser-based, free-to-play worms-like game enjoyed by thousands online. The servers unfortunately got shut down with no option for players to play the game offline, so after almost a decade since the game's shut down we're reviving it!</p>
                         </div>
-                        <img src={"/homepage/battle.png"} width={512} alt={"article preview image"} className={"border-2 border-blue-600 my-2 rounded-xl"} />
+                        <img src={"/homepage/experience.jpg"} width={512} alt={"article preview image"} className={"border-2 border-blue-600 my-2 rounded-xl"} />
                     </div>
 
                     <hr className={"w-1/4 self-center border-2 rounded-xl"} />
 
                     <div className={"flex flex-row gap-4"}>
-                        <img src={"/homepage/battle.png"} width={512}  alt={"article preview image"} className={"border-2 border-blue-600 my-2 rounded-xl"} />
+                        <img src={"/homepage/revival.png"} width={512}  alt={"article preview image"} className={"border-2 border-blue-600 my-2 rounded-xl"} />
                         <div className={"flex flex-col"}>
                             <h2>Revival progress</h2>
                             <p>While we are constantly working on making the game playable, we are still lacking tons of features. Right now it's possible to play versus bots, but in the future we will want to have things like proper matchmaking, customization, private lobbies, etc.<br /><br />
@@ -48,7 +48,7 @@ export default function Home() {
                             <h2>Dedicated community of fans</h2>
                             <p>We're people from all around the world wanting to experience the game one more time. We will not let this, or any other forgotten game just die! We support many other similiar projects, focused on bringing back different games from different eras and making sure they will be playable in the future as well!</p>
                         </div>
-                        <img src={"/homepage/battle.png"} width={512} alt={"article preview image"} className={"border-2 border-blue-600 my-2 rounded-xl"} />
+                        <img src={"/homepage/community.jpg"} width={512} alt={"article preview image"} className={"border-2 border-blue-600 my-2 rounded-xl"} />
                     </div>
                 </div>
 
@@ -92,21 +92,8 @@ export default function Home() {
             <section className={"flex flex-col bg-cyan-600 border-t-6 border-cyan-400 p-4 justify-center items-center w-full gap-4 text-white"}>
                 <h4>Latest news:</h4>
                 <div className={"flex flex-row gap-4 w-full justify-center items-center"}>
-                    <article className={"flex flex-col w-full gap-4 bg-blue-600 border-6 border-blue-300 p-4 rounded-xl basis-1/3"}>
-                        <h5>Headline 1</h5>
-                        <img src={"/homepage/battle.png"} alt={"article preview image"} className={"w-full border-2 rounded-xl"} />
-                        <p>Beginning of the news papaer lmfao among us sus article long text just testingBeginning of the news papaer lmfao among us sus article long text just testingBeginning...</p>
-                        <Link to={"/blog/1"} className={"btn w-fit!"}><span>Read more</span></Link>
-                    </article>
-
-                    <article className={"flex flex-col w-full gap-4 bg-blue-600 border-6 border-blue-300 p-4 rounded-xl basis-1/3"}>
-                        <h5>Headline 1</h5>
-                        <img src={"/homepage/battle.png"} alt={"article preview image"} className={"w-full border-2 rounded-xl"} />
-                        <p>Beginning of the news papaer lmfao among us sus article long text just testingBeginning of the news papaer lmfao among us sus article long text just testingBeginning...</p>
-                        <Link to={"/blog/1"} className={"btn w-fit!"}><span>Read more</span></Link>
-                    </article>
-
-                    <article className={"flex flex-col w-full gap-4 bg-blue-600 border-6 border-blue-300 p-4 rounded-xl basis-1/3"}>
+                    <h1 className={"mb-6"}>🐧⚒️️ Work in progress... stay tuned! 🚧</h1>
+                    <article className={"flex hidden! flex-col w-full gap-4 bg-blue-600 border-6 border-blue-300 p-4 rounded-xl basis-1/3"}>
                         <h5>Headline 1</h5>
                         <img src={"/homepage/battle.png"} alt={"article preview image"} className={"w-full border-2 rounded-xl"} />
                         <p>Beginning of the news papaer lmfao among us sus article long text just testingBeginning of the news papaer lmfao among us sus article long text just testingBeginning...</p>

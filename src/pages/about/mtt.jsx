@@ -3,7 +3,7 @@ import "./about.css";
 
 export default function MeetTheTeam() {
     return (
-        <main id={"container"} className="flex flex-col w-full">
+        <main id={"container"} className="items-stretch! mt-0!">
             <header className={"flex flex-col pt-2 pb-4 w-full gap-4 bg-[url(/about/banner.jpg)] text-white bg-fixed bg-contain border-b-6 border-gray-800"}>
                 <h1 className={"text-center"}>Meet the team</h1>
                 <div className={"flex flex-row items-center justify-center text-2xl gap-4"}>
@@ -97,7 +97,7 @@ export default function MeetTheTeam() {
                                 <img alt={"avatar"} src={"/about/avatar/changedruby.png"} className={"rounded-full border-4 border-black"} width={"100px"} />
                                 <div className={"flex flex-col"}>
                                     <h3 className={"text-blue-500"}>ChangedRuby</h3>
-                                    <p>Missing description</p>
+                                    <p>I really like coding and Flash for some reason, so this project is a nice middle ground that I enjoy contributing :)</p>
                                 </div>
                             </div>
                         </section>

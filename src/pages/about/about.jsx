@@ -3,7 +3,7 @@ import "./about.css";
 
 export default function About() {
     return (
-        <main id={"container"} className="flex flex-col">
+        <main id={"container"} className="items-stretch! mt-0!">
             <header className={"flex flex-col pt-2 pb-4 w-full gap-4 bg-[url(/about/banner.jpg)] text-white bg-fixed bg-contain border-b-6 border-gray-800"}>
                 <h1 className={"text-center"}>About the project</h1>
                 <div className={"flex flex-row items-center justify-center text-2xl gap-4"}>
@@ -43,7 +43,7 @@ export default function About() {
                     <section id={"scratch"} className={"w-4/5"}>
                         <h2>Scratch edition</h2>
                         <hr className={"my-4 w-full border-2 rounded-xl"} />
-                        <p>This version of the game is a recreation of it made in Scratch. The game offers little selection of cosmetics and weapons, as well as maps, created by ChangedRuby and Michielvde. Game offers custom matches and battles with bots.<br /><br />
+                        <p>This version of the game is a recreation of it made in Scratch. The game offers little selection of cosmetics and weapons, as well as maps, created by Kebabo and Michielvde. Game offers custom matches and battles with bots.<br /><br />
                             It has its own <Link to={"https://discord.gg/Nqnfm5qKRp"}>discord server</Link> and it's playable at <Link to={"https://kebabo.itch.io/cpws"}>kebabo.itch.io</Link> </p>
                     </section>
                 </div>
