@@ -4,8 +4,8 @@ import "./about.css";
 export default function MeetTheTeam() {
     return (
         <main id={"container"} className="items-stretch! mt-0!">
-            <header className={"flex flex-col pt-2 pb-4 w-full gap-4 bg-[url(/about/banner.jpg)] text-white bg-fixed bg-contain border-b-6 border-gray-800"}>
-                <h1 className={"text-center"}>Meet the team</h1>
+            <header className={"banner w-full bg-[url(/about/banner.jpg)]"}>
+                <h1>Meet the team</h1>
                 <div className={"flex flex-row items-center justify-center text-2xl gap-4"}>
                     <Link to="/about" className={"btn-action"}><span>About CPW</span></Link>
                     <Link to="/about/team" className={"btn-action active"}><span>Meet the team</span></Link>
