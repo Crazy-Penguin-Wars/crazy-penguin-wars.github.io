@@ -21,6 +21,13 @@
 
 html {
     scroll-behavior: smooth;
+    background-image: url("/background.png");
+    @apply bg-no-repeat bg-cover bg-center
+    text-cyan-100;
+}
+
+body {
+    @apply backdrop-brightness-75 backdrop-blur-lg;
 }
 
 #root {

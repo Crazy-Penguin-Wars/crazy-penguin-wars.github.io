@@ -19,7 +19,7 @@ export default function Home() {
 
             <hr className={"my-4 w-1/4 self-center border-2 rounded-xl"} />
 
-            <section className={"primary-sec"}>
+            <section className={"primary-sec text-stroke-1 text-stroke-black"}>
                 <div className={"main-content"}>
                     <div>
                         <div>
