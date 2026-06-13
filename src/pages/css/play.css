@@ -8,10 +8,10 @@
     mx-8 my-6
     p-4
     text-white
-    bg-purple-500
+    bg-yellow-400
     border-6 rounded-xl
-    border-purple-700
-    border-t-purple-400 border-r-purple-400;
+    border-yellow-600
+    border-t-yellow-300 border-r-yellow-300;
 }
 
 .download-element > div {

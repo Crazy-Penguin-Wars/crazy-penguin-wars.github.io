@@ -62,25 +62,25 @@ export default function Home() {
             <hr className={"my-4 w-1/4 self-center border-2 rounded-xl"}/>
 
             <section className={"secondary-sec"}>
-                <div className={"bg-red-600 border-red-400"}>
+                <div className={"bg-red-600 border-red-500 border-l-red-800 border-b-red-800"}>
                     <h4>Fight your friends!</h4>
                     <p className={"-mt-6"}>(matchmaking included)</p>
                     <img src={"/homepage/battle.png"} alt="Battle" />
-                    <hr className={"w-3/4 self-center border-4 rounded-xl border-t-red-400 border-b-red-700 border-l-red-700 border-r-red-400"} />
+                    <hr className={"w-3/4 self-center border-4 rounded-xl border-t-red-400 border-b-red-800 border-l-red-800 border-r-red-400"} />
                     <p>Got a beef that needs to be settled? Take out your friend for a 1v1 and see who's right!</p>
                 </div>
 
-                <div className={"bg-green-800 border-green-600"}>
+                <div className={"bg-green-700 border-green-600 border-l-green-800 border-b-green-800"}>
                     <h4>Crazy weapons!</h4>
                     <img src={"/homepage/weapon.png"} alt="Battle" />
                     <hr className={"w-3/4 self-center border-4 rounded-xl border-t-green-600 border-b-green-900 border-l-green-900 border-r-green-600"} />
                     <p>Tired of running with just an AK? Choose a bazooka, frag grenade, SMG or something else!</p>
                 </div>
 
-                <div className={"bg-purple-600 border-purple-400"}>
+                <div className={"bg-purple-600 border-purple-400 border-l-purple-800 border-b-purple-800"}>
                     <h4>Customize your looks!</h4>
                     <img src={"/homepage/customize.png"} alt="Battle" />
-                    <hr className={"w-3/4 self-center border-4 rounded-xl border-t-purple-400 border-b-purple-700 border-l-purple-700 border-r-purple-400"} />
+                    <hr className={"w-3/4 self-center border-4 rounded-xl border-t-purple-400 border-b-purple-800 border-l-purple-800 border-r-purple-400"} />
                     <p>Feeling like a soldier? Or maybe a wizard? Choose from tons of clothing options to match your vibe!</p>
                 </div>
             </section>

@@ -15,7 +15,7 @@ export default function Play() {
                     <img src={"/play/gameplay.png"} width={512} alt={"game screenshot"} className={"border-2 border-blue-600 my-2 rounded-xl"} />
                 </div>
                 <Link to="https://github.com/Crazy-Penguin-Wars/cpw-launcher/releases/download/1.0.0/Crazy.Penguin.Wars.1_0_0.zip" className={"btn-action text-xl mt-auto"}><span>DOWNLOAD</span></Link>
-                <p>Latest release: 1.0.0 · <Link to={"https://github.com/Crazy-Penguin-Wars/cpw-launcher/releases/"} className={"text-cyan-400! hover:text-cyan-200!"}>version history</Link></p>
+                <p>Latest release: 1.0.0 · <Link to={"https://github.com/Crazy-Penguin-Wars/cpw-launcher/releases/"} className={"text-blue-400! hover:text-blue-600! transition-colors ease-in-out"}>version history</Link></p>
             </div>
 
             <div className={"border-4 rounded-full self-stretch hidden"}></div>

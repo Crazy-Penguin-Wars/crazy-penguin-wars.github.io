@@ -32,14 +32,14 @@ export default function MeetTheTeam() {
                     <p className={"mt-auto text-center font-extrabold"}>○ ○ ○</p>
                 </aside>
 
-                <div className={"flex flex-col w-2/3 mb-6 px-6 mt-2 gap-8"}>
+                <div className={"flex flex-col w-2/3 mb-6 px-6 mt-2 gap-8 mtf"}>
                     <section id={"founder"} className={"w-4/5"}>
                         <h2>Founder</h2>
                         <hr className={"my-4 w-full border-2 rounded-xl"} />
                         <div className={"flex flex-row gap-4 mb-4 items-start"}>
                             <img alt={"avatar"} src={"/about/avatar/foxahri.png"} className={"rounded-full border-4 border-black"} width={"100px"} />
                             <div className={"flex flex-col"}>
-                                <h3 className={"text-red-600"}>FoxAhri</h3>
+                                <h3 className={"text-red-500"}>FoxAhri</h3>
                                 <p>I was obsessed with this game as a kid, so I launched this project with the goal of bringing Crazy Penguin Wars back to life. I’m mainly in charge of managing the project and the community that’s growing around this adventure.</p>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ export default function MeetTheTeam() {
                         <hr className={"my-4 w-full border-2 rounded-xl"} />
 
                         <section id={"devs-game"} className={"pl-16"}>
-                            <h3>Game</h3>
+                            <h3 className={"text-stroke-0!"}>Game</h3>
                             <hr className={"my-4 w-full border-2 rounded-xl"} />
 
                             <div className={"flex flex-row gap-4 mb-4 items-start"}>
@@ -103,7 +103,7 @@ export default function MeetTheTeam() {
                         </section>
 
                         <section id={"devs-website"} className={"pl-16"}>
-                            <h3>Website</h3>
+                            <h3 className={"text-stroke-0!"}>Website</h3>
                             <hr className={"my-4 w-full border-2 rounded-xl"} />
                             <div className={"flex flex-row gap-4 mb-4 items-start"}>
                                 <img alt={"avatar"} src={"/about/avatar/dozy.png"} className={"rounded-full border-4 border-black"} width={"100px"} />

@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+    --stroke-none: unset;
+}
+
+@utility text-stroke-* {
+    -webkit-text-stroke-width: calc(--value(integer) * 0.5px);
+    -webkit-text-stroke-width: --value(--stroke-*, [*]);
+
+    --tw-stroke-color: --value(--color-*);
+    -webkit-text-stroke-color: var(--tw-stroke-color, black);
+}
+
 aside ul {
     @apply list-disc;
 }
@@ -29,4 +41,8 @@ aside li > a {
 section p > a {
     @apply text-blue-300
     hover:text-yellow-300 transition-all ease-in-out;
+}
+
+.mtf h3 {
+    @apply text-stroke-1 text-stroke-black;
 }
