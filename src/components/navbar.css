@@ -1,14 +1,41 @@
 @import "tailwindcss";
 
 nav {
-    @apply flex flex-row
+    @apply flex flex-col
+    w-full
     items-center
     p-5
     gap-7
     bg-linear-to-b from-blue-500 to-blue-700
     border-b-6 border-blue-900
     text-2xl
+    lg:flex-row;
 }
 nav > a > img:hover {
     filter: brightness(65%);
+}
+
+nav > div {
+    @apply flex flex-row w-full
+    justify-between
+    items-center
+    lg:hidden;
+}
+
+nav > div > a > img:hover {
+    filter: brightness(65%);
+}
+
+nav > a > img {
+    @apply hidden
+    lg:inline-block;
+}
+
+nav a {
+    @apply w-full
+    lg:w-max;
+}
+
+nav a > span {
+    @apply w-full flex justify-center items-center;
 }
