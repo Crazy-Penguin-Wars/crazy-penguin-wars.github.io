@@ -10,7 +10,7 @@ nav {
     border-b-6 border-blue-900
     text-2xl
     z-999
-    lg:flex-row max-md:sticky! max-md:top-0;
+    lg:flex-row max-lg:sticky! max-lg:top-0;
 }
 nav > a > img:hover {
     filter: brightness(65%);
