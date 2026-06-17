@@ -9,7 +9,8 @@ nav {
     bg-linear-to-b from-blue-500 to-blue-700
     border-b-6 border-blue-900
     text-2xl
-    lg:flex-row;
+    z-999
+    lg:flex-row max-md:sticky! max-md:top-0;
 }
 nav > a > img:hover {
     filter: brightness(65%);

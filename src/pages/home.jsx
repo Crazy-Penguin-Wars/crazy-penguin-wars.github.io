@@ -17,7 +17,7 @@ export default function Home() {
                 </div>
             </header>
 
-            <hr className={"my-4 w-1/4 self-center border-2 rounded-xl"} />
+            <hr className={"my-4 w-1/2 md:w-1/4 self-center border-2 rounded-xl"} />
 
             <section className={"primary-sec text-stroke-1 text-stroke-black"}>
                 <div className={"main-content"}>
@@ -29,7 +29,7 @@ export default function Home() {
                         <img src={"/homepage/experience.jpg"} width={512} alt={"article preview image"} className={"border-2 border-blue-600 my-2 rounded-xl"} />
                     </div>
 
-                    <hr className={"w-1/4 self-center border-2 rounded-xl"} />
+                    <hr className={"w-1/2 md:w-1/4 self-center border-2 rounded-xl"} />
 
                     <div>
                         <img src={"/homepage/revival.png"} width={512}  alt={"article preview image"} className={"border-2 border-blue-600 my-2 rounded-xl"} />
@@ -40,7 +40,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <hr className={"w-1/4 self-center border-2 rounded-xl"} />
+                    <hr className={"w-1/2 md:w-1/4 self-center border-2 rounded-xl"} />
 
                     <div>
                         <div>
@@ -59,7 +59,7 @@ export default function Home() {
                 </aside>
             </section>
 
-            <hr className={"my-4 w-1/4 self-center border-2 rounded-xl"}/>
+            <hr className={"my-4 w-1/2 md:w-1/4 self-center border-2 rounded-xl"}/>
 
             <section className={"secondary-sec"}>
                 <div className={"bg-red-600 border-red-500 border-l-red-800 border-b-red-800"}>
@@ -85,13 +85,13 @@ export default function Home() {
                 </div>
             </section>
 
-            <hr className={"mt-4 mb-8 w-1/4 self-center border-2 rounded-xl"}/>
+            <hr className={"mt-4 mb-8 w-1/2 md:w-1/4 self-center border-2 rounded-xl"}/>
 
             {/*TODO: TURN THIS INTO A COMPONENT */}
             <section className={"flex flex-col bg-cyan-600 border-t-6 border-cyan-400 p-4 justify-center items-center w-full gap-4 text-white"}>
                 <h4>Latest news:</h4>
                 <div className={"flex flex-row gap-4 w-full justify-center items-center"}>
-                    <h1 className={"mb-6"}>🐧⚒️️ Work in progress... stay tuned! 🚧</h1>
+                    <h1 className={"mb-6 text-center"}>🐧⚒️️ Work in progress... stay tuned! 🚧</h1>
                     <article className={"flex hidden! flex-col w-full gap-4 bg-blue-600 border-6 border-blue-300 p-4 rounded-xl basis-1/3"}>
                         <h5>Headline 1</h5>
                         <img src={"/homepage/battle.png"} alt={"article preview image"} className={"w-full border-2 rounded-xl"} />
